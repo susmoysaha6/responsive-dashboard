@@ -46,9 +46,9 @@ const Sidebar = () => {
             <div className="drawer-side ">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
                 <ul className="menu p-4 w-80 bg-[#1E2772] text-white  ">
-                    <h1 className='text-3xl text-center my-10'>NextGen IT</h1>
+                    <h1 className='text-3xl text-center my-5'>NextGen IT</h1>
                     <li className='mx-8'><Link to='/'> <RiProfileLine /> Dashboard</Link></li>
-                    <li className='mx-8'><Link to="/"><RiProfileLine /> Attendance</Link></li>
+                    <li className='mx-8'><Link to='/attendance'><RiProfileLine /> Attendance</Link></li>
                     <li className='mx-8'><Link to="/"><RiProfileLine /> Employees</Link></li>
                     <li className='mx-8'><Link to="/"><RiProfileLine /> Leaves</Link></li>
                     <li className='mx-8'><Link to="/"><RiProfileLine /> Expense</Link></li>
